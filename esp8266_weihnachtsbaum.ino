@@ -42,10 +42,10 @@ PubSubClient client(espClient);                                   // Client für
 const char* ssid = "xxxx";                    // WLan Name
 const char* password = "xxxx";            // WLan Passwort
 
-IPAddress ip(192, 168, 2, 149);                   // IP mit der sich der ESP in das Netzwerk verbinden soll
-IPAddress gateway(192, 168, 2, 1);                // Gateway des Netzwerks
-IPAddress subnet(255, 255, 255, 0);               // Subnetmask
-IPAddress dns(192, 168, 2, 169);
+IPAddress ip(xxx, xxx, xxx, xxx);                   // IP mit der sich der ESP in das Netzwerk verbinden soll
+IPAddress gateway(xxx, xxx, xxx, xxx);                // Gateway des Netzwerks
+IPAddress subnet(xxx, xxx, xxx, xxx);               // Subnetmask
+IPAddress dns(xxx, xxx, xxx, xxx);
 
 /*
   ---------------------- Variablen ----------------------
