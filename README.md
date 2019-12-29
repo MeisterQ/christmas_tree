@@ -37,3 +37,13 @@ Currently im using the tree with Node-Red and its Dashboard to control the tree.
 
 In this repository you will find the code, the gerberfiles and the BOM for the Tree.
 
+
+You have to put all the .ino files in one directory and open one file only. Then the Arduino IDE will open all other .ino files in diffrent tabs.
+
+All of them need to be uploadet to your ESP.
+
+Add your MQTT-Server IP at line 19 of esp8266_weihnachtsbaum.ino
+
+Add your WiFi name and password at line 42 and 43 of esp8266_weihnachtsbaum.ino
+
+Change the Topicnames at line 25-36 if you need to
