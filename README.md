@@ -46,4 +46,6 @@ Add your MQTT-Server IP at line 19 of esp8266_weihnachtsbaum.ino
 
 Add your WiFi name and password at line 42 and 43 of esp8266_weihnachtsbaum.ino
 
-Change the Topicnames at line 25-36 if you need to
+Change the Topicnames at line 25 - 36 if you need to.
+
+Change the IP-Adresses at line 45 - 48
